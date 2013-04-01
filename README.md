@@ -74,6 +74,17 @@ For the `Definition` card to work, you must define the `WORDNIK_KEY` environment
 |:-------|:------|:------|:-------|
 | | 10 or 13 digit ISBN | book::0345342968 | Returns the `title`, `author`, `publish date`, and `description` for the work. |
 
+### Hash
+
+| Option | Input | Usage | Action |
+|:-------|:------|:------|:-------|
+| md5 | string | hash:md5:robot | Returns the `md5` hash of `robot`. |
+| sha1 | string | hash:sha1:robot | Returns the `sha1` hash of `robot`. |
+| sha224 | string | hash:sha224:robot | Returns the `sha224` hash of `robot`. |
+| sha256 | string | hash:sha256:robot | Returns the `sha256` hash of `robot`. |
+| sha384 | string | hash:sha384:robot | Returns the `sha384` hash of `robot`. |
+| sha512 | string | hash:sha512:robot | Returns the `sha512` hash of `robot`. |
+
 ## Implementations
 
 ### Python Script
