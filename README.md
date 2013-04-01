@@ -6,7 +6,7 @@ I am V.I.R.A. - your __Virtual Information Retrieval Assistant__.
 
 ### What Do I Do?
 
-You can interact with my via specially formmated queries to get certain information like:
+You can interact with me via specially formmated queries to get information like:
 
 - the weather
 - definitions of words
@@ -45,20 +45,20 @@ The following cards are part of the official distribution:
 
 ### Word
 
-| Option | Input | Sample | Output/Action |
+| Option | Input | Usage | Output/Action |
 |:-------|:------|:-------|:--------------|
 | define | term to be defined | word:define:robot | Remaps to `define::robot` |
 | urban | term to be defined | word:urban:robot | Remaps to `urban dictionary:1:robot` |
 
 ### Definition, Define
 
-| Option | Input | Sample | Action |
+| Option | Input | Usage | Action |
 |:-------|:------|:-------|:-------|
 | | term to be defined | define::robot | Returns the definition of `robot` |
 
 ### Urban, Urban Dictionary
 
-| Option | Input | Sample | Action |
+| Option | Input | Usage | Action |
 |:-------|:------|:-------|:-------|
 | | term to be defined | urban::robot | Remaps to`urban:1:robot` |
 | # | term to be defined | urban:#:robot | Returns the number of definitions for `robot` on Urban Dictionary |
