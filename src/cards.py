@@ -12,8 +12,41 @@ card_map = {
                 'urban'            : 'urban_dict',
                 'book'             : 'book',
                 'isbn'             : 'book',
-                'vira'  		   : 'vira'
+                'vira'  	   	   : 'vira',
+                'hash'		   	   : 'hash_str'
              }
+
+
+def hash_str(options, inputx):
+	
+	if options == 'md5':
+		
+		return hashlib.md5(inputx).hexdigest()
+		
+	elif options == 'sha1':
+		
+		return hashlib.sha1(inputx).hexdigest()
+		
+	elif options == 'sha224':
+		
+		return hashlib.sha224(inputx).hexdigest()
+		
+	elif options == 'sha256':
+		
+		return hashlib.sha256(inputx).hexdigest()
+		
+	elif options == 'sha384':
+		
+		return hashlib.sha384(inputx).hexdigest()
+	
+	elif options == 'sha512':
+		
+		return hashlib.sha512(inputx).hexdigest()
+		
+	else:
+		
+		raise Exception('Hash format (md5, sha1, sha224, sha256, sha384, sha512) is invalid.')
+
 
 def vira(options, inputx):
    
