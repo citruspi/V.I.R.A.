@@ -1,6 +1,6 @@
 ## V.I.R.A.
 
-### Who am I?
+### Who Am I?
 
 I am V.I.R.A. - your __Virtual Information Retrieval Assistant__. 
 
