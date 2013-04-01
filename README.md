@@ -56,6 +56,10 @@ The following cards are part of the official distribution:
 |:-------|:------|:-------|:-------|
 | | term to be defined | define::robot | Returns the definition of `robot` |
 
+For the `Definition` card to work, you must define the `WORDNIK_KEY` environment key as your Wordnik API Key and install the `wordnik` package:
+
+    $ pip install wordnik
+
 ### Urban, Urban Dictionary
 
 | Option | Input | Usage | Action |
@@ -78,6 +82,10 @@ The following cards are part of the official distribution:
 
     vira = VIRA()
     vira.solve('define::robot')
+    
+### CLI
+
+    $ python vira.py -i define::robot
 
 ## The Inner Working
 
