@@ -6,7 +6,7 @@ I am V.I.R.A. - your __Virtual Information Retrieval Assistant__.
 
 ### What Do I Do?
 
-You can interact with me via specially formmated queries to get information like:
+You can interact with me via specially formatted queries to get information like:
 
 - the weather
 - definitions of words
