@@ -33,13 +33,11 @@ To learn how to add features to V.I.R.A., scroll down to the section on [extendi
     
 ## Usage
 
-V.I.R.A. accepts specially formatted strings - `card:options:input`.
+V.I.R.A. accepts specially formatted strings - `card:options:input` where
 
-Cards are actions or verbs like `word`, `define`, `hash`, or `weather`.
-
-Options are options for that card. An option for the `hash` function might be a hash type - `SHA1` or `MD5`.
-
-Input is the actual input which will be processed - maybe the string the be hashed.
+- `Cards` are actions or verbs like `word`, `define`, `hash`, or `weather`.
+- `Options` are options for that card. An option for the `hash` function might be a hash type - `SHA1` or `MD5`.
+- `Input` is the actual input which will be processed - maybe the string the be hashed.
 
 ## Cards
 
