@@ -89,7 +89,7 @@ For the `Definition` card to work, you must define the `WORDNIK_KEY` environment
 
 ### Python Script
 
-    import vira
+    from vita import *
 
     vira = VIRA()
     vira.solve('define::robot')
